@@ -25,8 +25,8 @@ Al finalizar esta práctica van a poder:
 - [ ] Este repo clonado en la notebook del grupo
 
 ```bash
-git clone https://github.com/udesa-dm2-2026/dm2-g0N.git
-cd dm2-g0N
+git clone git@github.com:udesa-ai/dm2-26c1.git
+cd dm2-26c1
 ```
 
 ---
