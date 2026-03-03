@@ -1,5 +1,27 @@
 # DM2 — Práctica 1: Bautismo Eléctrico
 
+## Toolchain
+
+Este proyecto **no usa PlatformIO ni CMSIS** — es bare-metal puro con `arm-none-eabi-gcc` y un `Makefile`.
+
+| Herramienta | Uso | Instalar |
+|-------------|-----|---------|
+| `arm-none-eabi-gcc` | Compilador + linker | `sudo apt install gcc-arm-none-eabi` |
+| `openocd` | Flash via ST-Link v2 | `sudo apt install openocd` |
+| `st-flash` *(alternativa)* | Flash directo | `sudo apt install stlink-tools` |
+
+Verificar:
+```bash
+arm-none-eabi-gcc --version
+openocd --version
+```
+
+`make` genera `blinky.elf` + `blinky.bin` sin dependencias adicionales.
+
+---
+
+
+
 **Diseño Mecatrónico II · IOR444 · Universidad de San Andrés**
 Sesión 1 · 2026-03-03
 
